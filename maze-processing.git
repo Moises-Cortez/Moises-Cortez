@@ -1,0 +1,24 @@
+void setup() {
+  size(700,400);
+  background(#54C3ED);  //Color del cielo
+}
+
+void draw(){
+  
+ fill(#1DBF23);  //Color Montaña verde
+ circle(290,445,400);
+ circle(137,475,400);
+ fill(#A5932B);  //Color de la Cabaña
+ rect(425,200,100,100);
+ rect(525,200,100,100);
+ fill(#D12C2C);  //Color techo
+ triangle(425,200,475,125,525,200);
+ quad(475,125,587,125,625,200,525,200);
+ fill(#D4F6F7);  //Color ventana
+ rect(550,225,25,25);
+ fill(#1DBF23);  //Color montaña verde
+ circle(560,450,400);
+ fill(#E8D821);
+ circle(175,125,100);  //Sol
+     
+}
